@@ -1,0 +1,129 @@
+header{
+    width: 98.5%;
+    height: 13%;
+    padding: 8px;
+    position: fixed;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    //border: 2px solid red;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    background:linear-gradient(to right,#7a297a, #1f1f1f);
+}
+.logo{
+    width: 100px;
+    height: 90px;
+    background-image: url(berger\ logo.png);
+    background-size: cover;
+    //border: 2px solid red;
+}
+.Searchbox{
+    width: 43.5%;
+    margin-left: 30px; 
+    //border: 2px solid red;
+}
+input{
+    width: 490px;
+    padding: 11px;
+    font-size: 17px;
+    border: none;
+    border-radius: 5px;
+}
+button{
+    width: 7%;
+    padding: 11px;
+    cursor: pointer;
+    border:none
+    padding-right: 24px;
+}
+.navbar ul{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 30px; 
+    //border: 2px solid red;
+}
+.navbar ul li{
+    color: white;
+    font-size: 17px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.navbar ul li a:hover{
+    color: orange;
+}
+.sinup{
+    width: 7%;
+    padding: 13px;
+    color: white;
+    border: none;
+    text-align: center;
+    margin-right: 20px;
+    margin-left: 20px;
+    border-radius: 6px;
+    background-color: rgb(29, 98, 202);
+}
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: #ffffff;
+}
+main{
+    width: 46.2%;
+    margin: auto;
+    margin-top: 129px;
+    //border: 2px solid red;
+}
+table th{
+    height: 34px;
+}
+table th:hover{
+    color: black;
+    background-color: white;
+    border-radius: 7px;
+    font-weight: bolder;
+    border:  2px solid black;
+}
+section{
+    width: 46%;
+    /* height: 380px;  */
+    margin: auto;
+    margin-top: 50px;
+    background-color: #1f1f1f;
+    border-radius: 4px;
+   // border: 2px solid red;
+}
+h1{
+    text-align: center;
+    font-size: 24px;
+    margin-top: 35px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+section input{
+    margin-left: 44px;
+    /* margin-block-end: 20px; */
+    margin-block-start: 15px;
+}
+section textarea{
+    margin-left: 44px;
+    border-radius: 4px;
+    margin-block-start: 15px;
+}
+#submit{
+     width: 100px;
+     margin-top: 20px;
+     margin-left: 255px;
+     padding-left: 9px;
+     color: white;
+     border-radius: 6px;
+     margin-bottom: 10px;
+     background-color: red;
+    
+}
