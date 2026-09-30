@@ -1,0 +1,282 @@
+header{
+    width: 98.5%;
+    height: 13%;
+    padding: 8px;
+    position: fixed;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    //border: 2px solid red;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    background:linear-gradient(to right,#7a297a, #1f1f1f);
+}
+.logo{
+    width: 100px;
+    height: 90px;
+    background-image: url(berger\ logo.png);
+    background-size: cover;
+    //border: 2px solid red;
+}
+.Searchbox{
+    width: 45%;
+    margin-left: 30px; 
+   // border: 2px solid red;
+}
+input{
+    width: 490px;
+    padding: 11px;
+    font-size: 17px;
+    border:none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+button{
+    width: 7%;
+    padding: 11px;
+    cursor: pointer;
+    border:none
+    padding-right: 24px;
+}
+.navbar ul{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 30px; 
+    //border: 2px solid red;
+}
+.navbar ul li{
+    color: white;
+    font-size: 17px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.navbar ul li a:hover{
+    color: orange;
+}
+.sinup{
+    width: 8%;
+    padding: 13px;
+    color: white;
+    border: none;
+    text-align: center;
+    margin-right: 20px;
+    margin-left: 20px;
+    border-radius: 6px;
+    background-color: gold  ;
+}
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: #ffffff;
+}
+.centerdata {
+    width: 99.6%;
+    height: 100vh;
+    margin-top:100px; 
+    background: url('Berger big pic.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    //border: 2px solid red;
+}
+
+.contant{
+    margin-right: 730px;
+    //border: 3px solid green;
+}
+.centerdata h1 {
+    font-size: 48px;
+    animation-name: fontstyle;
+    animation-duration: 6s;
+    animation-iteration-count:infinite;
+}
+.centerdata p {
+    width: 80%;
+    font-size: 25px;
+    margin: 5px 0;
+    text-align: left;
+    animation-name: fontstyle;
+    animation-duration: 6s;
+    animation-iteration-count:infinite;
+}
+@keyframes fontstyle
+{
+    0%{color:  white;}
+    10%{color: gold;}
+    15%{color: purple;}
+    20%{color: blue;}
+    25%{color: darkgray;}
+    30%{color: seagreen;}
+    35%{color: orange;}
+    40%{color: teal}
+    45%{color: chocolate;}
+    50%{color: rgb(255, 0, 0);}
+    100%{color:rgb(6, 252, 239);}
+   
+}
+.center-buttons {
+    margin-top: 20px;
+    width: 50%;
+    padding: 12px;
+    font-weight: bold;
+    color: goldenrod; 
+    background-color: red;
+    border-radius: 6px;
+}
+.center-buttons a{
+    animation-name: buttoncolor;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes buttoncolor{
+    0%{color:white;}
+    20%{color:yellow;}
+    40%{color:rgb(3, 58, 129);}
+}
+h1{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    //border: 2px solid green;
+}
+.fronttitle{
+    width: 99.6%;
+    height: 240px;
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-evenly;
+    //border: 2px solid green;
+}
+.fronttitle :hover{
+    color: black;
+    background-color: white;
+    box-shadow: 5px 7px 10px gray;
+}
+.fronttitle div{
+    width: 20%;
+    height: 190px;
+    margin-top: 20px;
+    padding-top: 26px;
+    padding-left: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: 1px solid gray;
+}
+.down{
+    width: 99.6%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    //border: 2px solid rgb(0, 255, 136);
+}
+.pic1{
+    width: 30%;
+    //border: 2px solid red;
+}
+.pic2{
+    width: 25%;
+    //border: 2px solid blue;
+}
+.pic3{
+    width: 30%;
+    //border: 2px solid yellow;
+}
+.pic3 img{
+    width: 95%;
+}
+main{
+    width: 99.6%;
+    margin-top: 1%;
+    display: flex;
+    justify-content: space-evenly;
+    //border: 2px solid rgb(27, 7, 207);
+}
+main div{
+    width: 27%;
+    text-align: left;
+    font-size: 17px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    //border: 2px solid rgb(23, 155, 11);
+}
+table img{
+    width: 80%;
+    margin-left: 35px;
+    margin-top: 5px;
+    text-align: right;
+}
+h3{
+    color: gold;
+    font-size: 30px;
+    text-align: center;
+    font-family:Edwardian Script ITC;
+}
+.Clients{
+    width: 99.7;
+    display: flex;
+    justify-content: space-evenly;
+    //border: 2px solid green;
+}
+.Clients :hover{
+    color: black;
+    background-color: white;
+    box-shadow: 5px 7px 10px rgb(78, 76, 76);
+}
+.clisay{
+    width: 30%;
+    height: 180px;
+    margin-top: 30px;
+    padding-top: 15px;
+    padding-left: 20px;
+    border: 1px solid gray;
+}
+.Picture{
+    width: 40px;
+    border-radius: 85%;
+    margin-top: 20px;
+}
+footer{
+    width: 99.8%;
+    height: 300px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgb(27, 27, 27);
+    //border: 2px solid red;
+}
+.foot-panal {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    //border: 2px solid yellow;
+}
+ul a{
+    display: block ;
+}
+.btnemail{
+    width: 55%;
+    height: 30px;
+    padding-top: 5px;
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    border-radius: 5px;
+    background-color: gold;
+}
+/* footer img{
+    width: 7%;
+    margin: auto;
+    margin-top: -65px;
+    //border: 2px solid red;
+} */
